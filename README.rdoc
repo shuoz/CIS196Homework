@@ -2,7 +2,7 @@ Homework #1
 01/20/2014
 
 Heroku link: http://warm-atoll-7036.herokuapp.com
-Link to GitHub repository:  shuoz/CIS196Homework1
+Link to GitHub repository: https://github.com/shuoz/CIS196Homework1
 
 What I did:
   Set up Ruby, Rails, Git, Heroku
