@@ -13,3 +13,7 @@ What I did:
   Stored code on new GitHub repository
   Deployed to Heroku
   Updated README file
+
+Problems I encountered:
+  None. I have taken introductory classes on Ruby on Rails before, so was relatively familiar with
+  how to set up everything on mac. Everything went smoothly according to the directions in the homework
