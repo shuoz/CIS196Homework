@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Homework1</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <title>Shuo's Google Homepage</title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
+<body>
+  <div class="navbar">
+  	<ul class="nav">
+      <div id="right-links">
+        <li><a class="nav-link" href="https://plus.google.com">+You</a></li>
+        <li><a class="nav-link" href="https://mail.google.com">Gmail</a></li>
+        <li><a class="nav-link" href="https://www.google.com/imghp">Images</a></li>
+        <li id="image1">Image1</li>
+        <li><a id="sign-in" href="https://accounts.google.com">Sign in</a></li>
+      </div>
+    </ul>
+  </div>
+
+  <%= yield %>
+
+  <div class="footer">
+    <ul class="nav-footer">
+      <div id="left-footer">
+        <li><a class="footer-link" href="https://www.google.com/intl/en/ads">Advertising</a></li>
+        <li><a class="footer-link" href="https://www.google.com/services">Business</a></li>
+        <li><a class="footer-link" href="https://www.google.com/intl/en/about">About</a></li>
+      </div>
+      <div id="right-footer">
+        <li><a class="footer-link" href="https://www.google.com/intl/en/policies">Privacy & Terms</a></li>
+        <li><a class="footer-link" href="https://www.google.com">Settings</a></li>
+      </div>
+    </ul>
+  </div>
 
 </body>
 </html>
