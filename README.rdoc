@@ -2,18 +2,20 @@ Homework #2
 02/03/2014
 
 Heroku link: http://warm-atoll-7036.herokuapp.com
-Link to GitHub repository: https://github.com/shuoz/CIS196Homework1
+Link to GitHub repository: https://github.com/shuoz/CIS196Homework
 
 What I did:
-  Set up Ruby, Rails, Git, Heroku
-  Created a new Rails app called "Homework1"
-  Updated gemfile to run postgresql in production and sqlite3 in development
-  Created a home page by generating a home controller with an index method and view
-  Updated routes.rb file
-  Stored code on new GitHub repository
-  Deployed to Heroku
-  Updated README file
+  -Recreated the Google homepage using HTML and CSS concepts learned in class
+  -Used the class LinkedIn example and Inspect Element tool on the Google webpage to assit with my coding
+  -Stored code on my GitHub repository
+  -Deployed to Heroku
+  -Updated README file
 
 Problems I encountered:
-  None. I have taken introductory classes on Ruby on Rails before, so was relatively familiar with
-  how to set up everything on mac. Everything went smoothly according to the directions in the homework
+  -I had trouble with positioning of elements on the homepage. I fixed this problem by playing around with positioning (fixed,relative, etc), margins, and padding
+  -I had trouble with alignment of text in the navbar and footer. I fixed this problem by creating divs to separate out the elements (for example, having left-footer and right-footer, instead of just footer)
+
+Project Ideas:
+  1) Investment Stars: There are many people who want to invest but don't know where to get advice, and there's also many people who are great at investing ("investment stars") and would be happy to share advice and tips with others who need it. This website would allow investment stars to create a personal profile (including investing experience, past jobs, etc) and share their portfolio holdings as well as insights such as daily market commentary or stock pitches. Others who want to get investment advice can "follow" their favorite investment stars. The ranking of these investment stars will change based on their past portfolio returns as well as how many loyal followers they have
+  2) Social Event Calendar: Many people have blocks of time when they are free to socialize (get lunch, coffee, dinner, drinks, etc), and many people have places they wish to go to with others (museums, concerts, etc) but it is hard to always find friends who are free during the same times. This website would have a monthly calendar where people can sign up for time slots as either Organizers or Participants. Organizers create social events and specify the logistics (where, when, max attendees) and Participants can sign up for social events created by others, based on what fits their schedule. This is a great way to fill in our free times and meet new people.
+  3) Financial Literacy Community: Many people are financially illiterate and it negatively impacts their lives (don't know how to manage their wealth, unaware of saving and retirement plans, can't do their taxes, make irresponsible investment decisions). At the same time, large companies and financial institutions are looking for ways to give back to the community while at the same time improving their public relations. This website would offer free education to the financially illiterate via blogs, white papers, videos, online courses, and in-person workshops. The free service would be provided by volunteer workers from large institutions
