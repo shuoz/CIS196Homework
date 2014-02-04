@@ -1,28 +1,19 @@
-== README
+Homework #2
+02/03/2014
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Heroku link: http://warm-atoll-7036.herokuapp.com
+Link to GitHub repository: https://github.com/shuoz/CIS196Homework1
 
-Things you may want to cover:
+What I did:
+  Set up Ruby, Rails, Git, Heroku
+  Created a new Rails app called "Homework1"
+  Updated gemfile to run postgresql in production and sqlite3 in development
+  Created a home page by generating a home controller with an index method and view
+  Updated routes.rb file
+  Stored code on new GitHub repository
+  Deployed to Heroku
+  Updated README file
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Problems I encountered:
+  None. I have taken introductory classes on Ruby on Rails before, so was relatively familiar with
+  how to set up everything on mac. Everything went smoothly according to the directions in the homework
